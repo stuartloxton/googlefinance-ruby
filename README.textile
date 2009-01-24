@@ -1,0 +1,5 @@
+h1. GoogleFinance Ruby
+
+Google Finance Ruby is a set of classes to interact with the finance.google.com site, it's planned to support most of the site including news, stock tickers and pretty much everything else.
+
+_Early in development so don't expect too much_
