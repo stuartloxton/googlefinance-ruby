@@ -41,7 +41,7 @@ class GoogleFinance
         dateStart = date_start.to_s_format('%m+%d+%y')
         date_end = date_end.to_s_format('%m+%d+%y')
       end
-      return GoogleFinance.get_quotes_for_url('http://finance.google.co.uk/finance/historical?q=' + @symbol+ '&startdate=' + dateStart + '&enddate=' + dateEnd)
+      return GoogleFinance.get_quotes_for_url('http://finance.google.co.uk/finance/historical?q=' + @symbol+ '&startdate=' + dateStart + '&enddate=' + dateEnd + '&num=200')
     end
     
   end
